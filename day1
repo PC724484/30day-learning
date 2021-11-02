@@ -1,0 +1,27 @@
+1.了解Python的工作原理
+
+Python是一種高級解釋型編程語言。
+這意味著python代碼需要由另一個稱為解釋器的軟件程序進行翻譯（解釋），該解釋器逐行執行代碼並將其轉換為字節碼（非常接近機器可讀代碼）。
+
+
+該字節碼由Python虛擬機運行（在安裝python時安裝），然後轉換為計算機可讀的二進制代碼，計算機可以處理該二進制代碼並執行必要的操作。
+
+在安裝Python時，我們安裝的是python解釋器以及虛擬機。
+python解釋器有不同的變體：
+
+CPython-帶有官方安裝，並用C語言編寫
+
+Jython PyPy IronPython
+
+每個實現都有自己的功能和取捨。
+
+2.了解版本
+
+有兩個主要版本v2和v3。在2008年，該語言進行了幾項重大改進，引入了一些重大更改，而沒有考慮向後兼容性。官方文檔現在建議使用v3，並且2020年後將不再支持v2。
+
+3.簡單的實踐
+
+了解了前面的內容，我想可以開始使用一些基本的hello世界類型代碼。
+我使用了令人驚嘆的在線遊樂場REPL，開始編寫一些python代碼
+
+name = input('What is your name?') #promts user input in console and store in a variableprint('Welcome to the world of Python ' + name) # prints to console 
